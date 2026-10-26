@@ -1,1 +1,5 @@
-﻿Console.WriteLine("Hello, World!");
+﻿using System.Text;
+
+Console.InputEncoding = Encoding.UTF8;
+Console.OutputEncoding = Encoding.UTF8;
+Console.WriteLine("Шукаємо новорічний подарунок");
